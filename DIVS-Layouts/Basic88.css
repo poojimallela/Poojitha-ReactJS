@@ -1,0 +1,179 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    overflow: auto;
+}
+.row1 {
+    background: black;
+    color: white;
+    height: 80px;
+}
+header{
+    width: 800px;
+    color: white;
+    margin: auto;
+}
+.basic
+{
+    width: 220px;
+    float: left;
+    margin-top: 10px;
+}
+.basic h1 {
+    padding: 0;
+    margin: 0;
+}
+.basic p{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: inline;
+    margin-top: 17px;
+    
+    
+}
+nav ul li{
+    display: inline;
+    margin-right: 70px;
+    font-size: 20px;
+}
+.row2{
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+}
+.row2 img {
+    margin-top: 20px;
+}
+.row3 {
+   width: 800px;
+   margin: auto;
+}
+.childs {
+    float: right;
+    width: 230px;
+    /* height: 150px; */
+    margin-right: 25px;
+}
+.child3{
+    float: right;
+    width: 240px;
+}
+figure img{
+    width: 23opx;
+    height: 150px;
+    border: 1px solid;
+    padding: 4px;
+}
+figure{
+    width: 245px;
+    padding: 0;
+    margin: 0;
+}
+figure{
+    width: 245px;
+    padding: 0;
+    margin: 0;
+}
+figure img{
+    width: 235px;
+    height: 150px;
+    border: 1px solid;
+    padding: 4px;
+}
+figcaption p{
+    font-size:15px ;
+    color: grey;
+}
+p.paralink {
+    float: right;
+    font-size: 1opx;
+}
+a{
+    color: red;
+    text-decoration: none;
+    font-size: 10px;
+}
+.row4 {
+    width: 800px;
+    margin: auto;
+    overflow: auto;
+    margin-top: 20px;
+}
+article{
+    width: 390px;
+    float: left;
+}
+aside{
+    width: 390px;
+    float: right;
+}
+aside img{
+    border: 1px solid;
+    padding: 4px;
+}
+.row5{
+    background-color: aqua;
+}
+section{
+    width: 800px;
+    margin: auto;
+    overflow: auto;
+    
+}
+.sections4{
+    width: 187px;
+    float: right;
+}
+.sections{
+    width: 187px;
+    float: left;
+    margin-right: 14px;
+}
+.sections ul{
+    list-style: none;
+    padding: 0;
+}
+.sections ul li{
+    font-size: 11px;
+    color: blue;
+    line-height: 2em;
+    border-bottom: 1px solid lightcoral;
+}
+.sections4 ul{
+    list-style: none;
+    padding: 0;
+}
+.sections4 ul li{
+    font-size: 11px;
+    color: blue;
+    line-height: 2em;
+    border-bottom: 1px solid lightcoral;
+}
+.row6{
+    background: black;
+    color: white;
+}
+footer{
+    width: 800px;
+    margin: auto;
+    overflow: auto;
+}
+p#footerpara1{
+    float: left;
+    font-size: 13px;
+}
+article p {
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+

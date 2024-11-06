@@ -1,0 +1,37 @@
+
+div#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+div#header {
+    background: pink;
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px grey;
+}
+div#page_content {
+    background: beige;
+    box-shadow: 0px 0px 2px 2px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.navigation {
+    margin: 0px 0px 2px 2px;
+    padding: 16px 15px;
+    border: 1px solid grey;
+    background: white;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    margin: 0px;
+    padding: 0 35px;
+    display: inline;
+    font-size: 17px;
+    list-style-type: none;
+    border-right: 2px dotted grey;
+}

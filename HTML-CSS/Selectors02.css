@@ -1,0 +1,18 @@
+/* 1.ID Selector */
+#firsth1{
+    color:green;
+}
+/* 2.Class Selector */
+.paragraph{
+    color: aquamarine;
+}
+/*3.Group Selector */
+h1,h4,p,h6{
+    font-size: 40px;
+}
+/* 4.Global Selector */
+
+*{
+    color: red; 
+     border: 2px solid; 
+}
