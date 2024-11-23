@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: aqua;
+        }
+        .container{
+            background: brown;
+        }
+        .staircase{
+            position:relative;
+            width: 500px;
+            height: 500px;
+        }
+        .step{
+            position: absolute;
+            width: 70px;
+            height: 20px;
+            background-color: beige;
+            text-align: center;
+        }
+        .step:first-child{
+            top: 20px;
+            left: 550px;
+            color: blue;
+        }
+        .step:nth-child(2) {
+    top: 27px;
+    left: 613px;
+}
+
+.step:nth-child(3) {
+    top: 59px;
+    left: 570px;
+}
+.step:nth-child(4) {
+    top: 93px;
+    left: 525px;
+}
+.step:nth-child(5) {
+    top: 125px;
+    left: 482px;
+}
+.step:nth-child(6) {
+    top: 157px;
+    left: 438px;
+}
+.step:nth-child(7) {
+    top: 188px;
+    left: 394px;
+}
+.step:nth-child(8) {
+    top: 219px;
+    left: 350px;
+}
+.step:nth-child(9) {
+    top: 251px;
+    left: 299px;
+}
+.step:last-child {
+    top: 286px;
+    left: 250px;
+    color: aquamarine;
+}
+        
+             
+        
+    </style>
+</head>
+<body>
+    <!--position five different types of position
+    1.static
+    2.relative
+    3.fixed
+    4.absolute
+    5.sticky-->
+    <div class="container">
+<div class="staircase"></div>
+<div class="step">step1</div>
+<div class="step">step2</div>
+<div class="step">step3</div>
+<div class="step">step4</div>
+<div class="step">step5</div>
+<div class="step">step6</div>
+<div class="step">step7</div>
+<div class="step">step8</div>
+<div class="step">step9</div>
+    </div>
+</body>
+</html>
