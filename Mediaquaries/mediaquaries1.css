@@ -1,0 +1,370 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  .Container {
+      overflow: auto;
+      /* display: flex; */
+  }
+  .row1 {
+      background: black;
+      color: white;
+      height: 80px;
+  }
+  header {
+      width: 800px;
+      margin: auto;
+      display: flex;
+      justify-content: space-around;
+  }
+  .basic {
+      width: 220px;
+      /* float: left; */
+      margin-top: 10px;
+  }
+  nav {
+      /* float: right; */
+      margin-top: 10px;
+  }
+  nav ul li {
+      display: inline;
+      /* margin-right: 40px; */
+      font-size: 20px;
+      padding: 13px;
+  }
+  .basic h1 {
+      padding: 0;
+      margin: 0;
+  }
+  .basic p {
+      padding: 0;
+      margin: 0;
+  }
+  .row2 {
+      width: 800px;
+      margin: auto;
+  }
+  .row2 img {
+      /* margin-top: 30px; */
+  }
+  .row3 {
+    width: 800px;
+    margin: auto;
+    overflow: auto;
+    border-bottom: 1px solid gray;
+    display: flex;
+  }
+  .childs {
+    width: 185px;
+    /* float: left; */
+    /* margin-right: 15px; */
+  }
+  .childs figure {
+    margin-left: 0;
+  }
+  .childs figure img {
+    width: 28px;
+    height: 28px;
+    /* float: left; */
+    border: 1px solid;
+    padding: 2px;
+  }
+  span {
+    font-size: 15px;
+    /* margin-left: 14px; */
+  }
+  .childs figcaption p {
+    font-size: 13px;
+  }
+  .childsPara a {
+    color: orange;
+    text-decoration: none;
+  }
+  .childs4 {
+    width: 185px;
+    /* float: right; */
+  }
+  /* .childs4 figure {
+    margin-left: 0;
+  } */
+  .childs4 figure img {
+    width: 28px;
+    height: 28px;
+    /* float: left; */
+    border: 1px solid;
+    padding: 2px;
+  }
+  span {
+    font-size: 15px;
+    /* margin-left: 14px; */
+  }
+  .childs4 figcaption p {
+    font-size: 13px;
+  }
+  .childsPara {
+    float: right;
+  }
+  .childsPara a {
+    color: orange;
+    text-decoration: none;
+  }
+  .row4 {
+    width: 750px;
+    height: 180px;
+    margin: auto;
+    border-bottom: 1px solid lightgray;
+    padding: 5px;
+    display: flex;
+  
+  }
+  .roses {
+      width: 284px;
+      /* float: left; */
+  }
+  .roses img {
+    width: 220px;
+    height: 120px;
+    border: 1px solid;
+    padding: 3px;
+  }
+  
+  .roses3 {
+      width: 228px;
+      /* float: right; */
+  }
+  .roses3 img {
+    width: 220px;
+    height: 120px;
+    padding: 3px;
+    border: 1px solid;
+  }
+  .row5 {
+    width: 880px;
+    margin: auto;
+    overflow: auto;
+  }
+  .row5 article {
+    width: 580px;
+    /* float: left; */
+  }
+  .child1 {
+    overflow: auto;
+  }
+  .child1Img {
+    width: 170px;
+    /* float: left; */
+  }
+  .child1Img img {
+    width: 170px;
+    height: 150px;
+    border: 1px solid;
+    padding: 3px;
+  }
+  .child1Cap {
+    width: 390px;
+    /* float: right; */
+    /* margin-left: 10px; */
+  }
+  .child1Cap p {
+    font-size: 15px;
+  }
+  /* p#child1Para {
+    float: right;
+  } */
+  #child1Para a {
+    color: orange;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  a {
+    float: right;
+    color: orange;
+    font-size: 13px;
+    text-decoration: none;
+  }
+  aside {
+    width: 198px;
+    /* float: right; */
+  }
+  aside ul {
+    list-style: none;
+    padding: 0;
+  }
+  aside ul li {
+    line-height: 2;
+    border-bottom: 1px solid lightgrey;
+    font-size: 15px;
+    color: gray;
+  }
+  
+  
+  .row6 {
+      background: black;
+      color: white;
+      /* display: flex; */
+  }
+  footer {
+      width: 800px;
+      margin: auto;
+      overflow: auto;
+      display: flex;
+      justify-content: space-around;
+  }
+  p#footerpara1 {
+      /* float: left; */
+      font-size: 13px;
+  }
+  p#footerpara2 {
+      /* float: right; */
+      font-size: 15px;
+  }
+  .row4 {
+    width: 800px;
+    height: 180px;
+    margin: auto;
+    border-bottom: 1px solid lightgray;
+    padding: 5px;
+  }
+  .parent1 {
+    /* float: left; */
+    padding: 4px;
+  }
+  .parent1 {
+    /* float: left; */
+    padding: 4px;
+  }
+  .parent {
+    /* float: right; */
+    padding: 4px;
+  }
+  .row5 {
+    width: 800px;
+    margin: auto;
+    overflow: auto;
+  }
+  .row5 article {
+    width: 600px;
+    /* float: left; */
+    overflow: auto;
+  }
+  .child1 {
+    overflow: auto;
+    display: flex;
+  }
+  .child1Img {
+    width: 180px;
+    /* float: left; */
+  }
+  .child1Cap {
+    /* float: right; */
+    width: 230px;
+  }
+  .child2 {
+    overflow: auto;
+    display: flex;
+  }
+  .child2Img {
+    width: 180px;
+    /* float: left; */
+  }
+  .child2Cap {
+    width: 250px;
+    /* float: right; */
+  }
+  @media(max-width:800px){
+    .row1 nav {
+      flex-direction: column;
+      align-items: center;
+      display: flex;
+    }
+    nav ul li {
+      margin: 10px 0;
+    }
+    footer {
+      font-size: 0.9rem;
+    }
+  }
+  @media(max-width:500px){
+    .Container{
+      width: 100%;
+      background-color: aquamarine;
+    }
+    .row1{
+      width: 480px;
+      height: 400px;
+      display: flex;
+    }
+    .header{
+      width: 480px;
+      display: flex;
+      font-size: 1.5rem;
+      align-items: center;
+      height: 400px;
+      flex-direction: column;
+  
+    }
+    .basic{
+      font-size: 15px;
+      text-align: center;
+      flex-direction: column;
+    }
+    nav{
+      width: 450px;
+    }
+    nav ul li{
+      flex-direction: column;
+       display: flex;
+    }
+    .basic{
+      font-size: 15px;
+      text-align: center;
+      flex-direction: column;
+    }
+    .row2{
+      height: 300px;
+      width: 450px;
+    }
+    .row2 img{
+      width: 450px;
+      height: 250px;
+    }
+    .row3{
+      flex-direction: column;
+      align-items: center;
+      width: 450px;
+    }
+    .row4{
+      flex-direction: column;
+      align-items: center;
+      width: 450px;
+      height: 500px;
+    }
+    .row5{
+      flex-direction: column;
+      width: 400px;
+      height: auto;
+    }
+    .row5 article{
+          width: 400px;
+          font-size: 10px;
+          flex: 1;
+          margin-bottom: 20px;
+          background-color: blue;
+    }
+    .row6{
+      width: 450px;
+    }
+    footer{
+      width: 410px;
+      height: 90px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: left 5px;
+    }
+  
+    
+  
+  }
+    
