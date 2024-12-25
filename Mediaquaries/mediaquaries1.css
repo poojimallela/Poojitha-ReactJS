@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0px;
     padding: 0px;
   }
@@ -16,7 +17,7 @@
       width: 800px;
       margin: auto;
       display: flex;
-      justify-content: space-around;
+    
   }
   .basic {
       width: 220px;
@@ -25,13 +26,15 @@
   }
   nav {
       /* float: right; */
-      margin-top: 10px;
+      margin-top: 17px;
+      display: inline;
   }
   nav ul li {
       display: inline;
       /* margin-right: 40px; */
       font-size: 20px;
       padding: 13px;
+    
   }
   .basic h1 {
       padding: 0;
@@ -45,9 +48,14 @@
       width: 800px;
       margin: auto;
   }
-  .row2 img {
-      /* margin-top: 30px; */
-  }
+  .row2 {
+    margin-top: 30px;
+}
+.row2 img {
+  margin-top: 20px;
+  width: 800px;
+  /* height: 400px; */
+}
   .row3 {
     width: 800px;
     margin: auto;
@@ -58,7 +66,7 @@
   .childs {
     width: 185px;
     /* float: left; */
-    /* margin-right: 15px; */
+    margin-right: 20px;
   }
   .childs figure {
     margin-left: 0;
@@ -70,6 +78,9 @@
     border: 1px solid;
     padding: 2px;
   }
+  figcaption {
+    font-size: 20px;
+}
   span {
     font-size: 15px;
     /* margin-left: 14px; */
@@ -308,23 +319,26 @@
       font-size: 15px;
       text-align: center;
       flex-direction: column;
+      /* flex-direction: 15px; */
+
     }
     nav{
       width: 450px;
+      
     }
     nav ul li{
       flex-direction: column;
        display: flex;
+       text-align: center;
+       flex-direction: 15px;
     }
-    .basic{
-      font-size: 15px;
-      text-align: center;
-      flex-direction: column;
-    }
-    .row2{
-      height: 300px;
+  
+    .row2 {
       width: 450px;
-    }
+      height: 250px;
+    
+  }
+  
     .row2 img{
       width: 450px;
       height: 250px;
@@ -333,7 +347,10 @@
       flex-direction: column;
       align-items: center;
       width: 450px;
+      display: flex;
+      margin: auto;
     }
+    .figca
     .row4{
       flex-direction: column;
       align-items: center;
